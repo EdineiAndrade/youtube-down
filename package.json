@@ -1,0 +1,15 @@
+{
+  "name": "youtube-down",
+  "version": "1.0.0",
+  "description": "Baixar Videos do Youtube",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edinei Andrade",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "ytdl-core": "^4.10.1"
+  }
+}
