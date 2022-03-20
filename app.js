@@ -5,7 +5,7 @@ const app = express();
 app.get("/", function (req, res){
     const {url} = req.query;
 
-    res.header("Content-Disposition", 'attachmentt; filename="video.mp4"')
+    res.header("Content-Disposition", 'attachmentt; filename="myVideo"')
     return ytdl(url).pipe(res);
  
 });
