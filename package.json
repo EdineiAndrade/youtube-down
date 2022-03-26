@@ -2,8 +2,9 @@
   "name": "youtube-down",
   "version": "1.0.0",
   "description": "Baixar Videos do Youtube",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Edinei Andrade",
