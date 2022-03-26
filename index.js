@@ -9,5 +9,7 @@ app.get("/", function (req, res){
     return ytdl(url).pipe(res);
  
 });
-
+process.env.url
 app.listen(process.env.PORT || 3000);
+console.info(process.env.PORT || 3000)
+console.info(process.env.url)
