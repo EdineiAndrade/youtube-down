@@ -11,5 +11,13 @@ app.get("/", function (req, res){
  
 });
 
+
+var handeleErros = (err,req,res, next) => {  
+    console.log('Erro na aplicação')
+    res.status(503).send('Erro de conecção')
+}
+app.use(handeleErros)
+
+
 app.listen(process.env.PORT || 3000);
 
